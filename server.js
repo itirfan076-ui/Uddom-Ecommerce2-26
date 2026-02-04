@@ -16,7 +16,7 @@ const server = http.createServer(app);
 // ২. Socket.io কনফিগারেশন
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173", // এই পোর্টটি আপনার Vite ফ্রন্টএন্ডের জন্য
+    origin: "http://uddomecommerce.com/", // এই পোর্টটি আপনার Vite ফ্রন্টএন্ডের জন্য
     methods: ["GET", "POST"],
     credentials: true
   }
